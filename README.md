@@ -4,12 +4,11 @@ This is a Data Science Innovation Accelerator 2025 project looking to model the 
 ## Folder structure
 
 - denodo contains examples of connecting to the scomed denodo database (by Gatz Osorio)
-- venv: python environment
-    - run requirements.txt to load all required libraries
-    - setconfigs.py sets your denodo port, host, user and password (saved in config.ini, not public)
+- scripts contain python scripts to extract and work on scomed data
 
-### Scripts
+### Setting up the environment
 
-- 00_ loads data from scomed
+The project sets up a python environment named .venv and loads required packages from requirements.txt.
+It then uses setconfigs.py to set up a connection to the PostgreSQL (Denodo) database, pulling config information from config.ini. A file called exampleconfig.ini is provided in git.
 
 
