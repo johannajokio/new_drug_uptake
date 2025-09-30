@@ -1,6 +1,6 @@
 import configparser
 
-#The load_config() function uses the Python built-in configparser package to read data from the database.ini file.
+#The load_config() function uses the Python built-in configparser package to read data from the config.ini file.
 def load_config(filename='config.ini', section='postgresql'):
   parser = configparser.ConfigParser()
   parser.read(filename)
