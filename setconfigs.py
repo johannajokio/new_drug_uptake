@@ -19,5 +19,5 @@ if __name__ == '__main__':
   config = load_config()
   print(config)
 
-  #use the load_config() function to read the database configuration and connect to PostgreSQL in 00_connect.py 
+#use the load_config() function to read the database configuration and connect to PostgreSQL in 00_connect.py 
 
