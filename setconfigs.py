@@ -15,9 +15,8 @@ def load_config(filename='config.ini', section='postgresql'):
     raise Exception('Section {0} not found in the {1} file'.format(section, filename))
   return config
 
-if __name__ == '__main__':
-  config = load_config()
-  print(config)
+#if __name__ == '__main__':
+config = load_config()
 
-#use the load_config() function to read the database configuration and connect to PostgreSQL in 00_connect.py 
+#use the load_config() function to read the database configuration and connect to PostgreSQL in connect.py 
 

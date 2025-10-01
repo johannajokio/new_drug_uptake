@@ -9,7 +9,6 @@ rows = cursor.fetchall()
 columns = [desc[0] for desc in cursor.description]
 
 # Put data in a pandas df
-df = (pd.DataFrame(rows, columns = columns))
+df = pd.DataFrame(rows, columns = columns)
 
 head(df)
-
